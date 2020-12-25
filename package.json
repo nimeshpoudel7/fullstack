@@ -1,0 +1,22 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "this a test git and node",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimeshpoudel7/fullstack.git"
+  },
+  "author": "nimesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimeshpoudel7/fullstack/issues"
+  },
+  "homepage": "https://github.com/nimeshpoudel7/fullstack#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
