@@ -22,7 +22,7 @@
         <span class="navbar-toggler-icon">
         </span>
       </button>
-       <a class="navbar-brand mr-auto" href="#">Nimesh</a>
+       <a class="navbar-brand mr-auto" href="#"> <img src="img/logo.png" width="41" height="30"class="img-fluid"></a>
        <div class="collapse navbar-collapse" id="navbar">
 
        <ul class="navbar-nav mr-auto">
@@ -43,6 +43,12 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
+                <div class="col-12 col-sm align-self-center">
+                   <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-4  align-self-center">
+                <input type="button"class="btn btn-warning" onclick="location.href='#neww';" value="Reserve Table" />
+                </div>
             </div>
         </div>
     </header>
@@ -52,9 +58,16 @@
             <div class="col-12 col-sm-4 order-sm-last  col-md-3 ">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
+
             <div class="col col-sm order-sm-first col-md ">
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+              <div class="media">
+  <img class="align-self-center mr-3" src="./img/uthappizza.png" alt="Generic placeholder image">
+  <div class="media-body">
+    <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+    <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+  </div>
+</div>
+
             </div>
         </div>
 
@@ -64,9 +77,16 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div  class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-            </div>
+              <div class="media">
+
+  <div class="media-body">
+    <h2 class="mt-0">
+                    <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                    <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                </div>
+                  <img class="align-self-center ml-3" src="./img/uthappizza.png" alt="Generic placeholder image">
+  </div>
+</div>
 
         </div>
 
@@ -75,11 +95,62 @@
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div  class="col col-sm order-sm-first col-md ">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-            </div>
+              <div class="media">
+  <img class="align-self-center mr-3" src="./img/Alberto.png" alt="Generic placeholder image">
+  <div class="media-body">
+    <h2 class="mt-0"<h2>Alberto Somayya</h2>
+    <h4>Executive Chef</h4>
+    <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+</div>
+  </div>
+</div>
+
         </div>
+        <div class="col-12 col-sm-6 offset-sm-3 mt-3 mb-4">
+          <div class="card">
+          <h3 class="card-header bg-warning text-white"> Reserve a Table</h3>
+          <div class="card-body">
+            <form id="neww">
+              <div class="row form-group">
+                <label class="col-md-3  col-form-label" for=" First Name">Number of Guests</label>
+                  <div class="col-1 ">
+                    <input type="radio"  class="form-check-input" name="firstname">1</input>
+                  </div>
+                  <div class="col-1">
+                    <input type="radio"  class="form-check-input" name="firstname">2</input>
+                  </div>
+                  <div class="col-1">
+                    <input type="radio"  class="form-check-input" name="firstname">3</input>
+                  </div>
+                  <div class="col-1">
+                    <input type="radio"  class="form-check-input" name="firstname">4</input>
+                  </div>
+                  <div class="col-1">
+                    <input type="radio"  class="form-check-input" name="firstname">5</input>
+                  </div>
+                  <div class="col-1">
+                    <input type="radio"  class="form-check-input" name="firstname">6</input>
+                  </div>
+                    </div>
+                  <div class="row form-group" >
+                      <label for="telnum " class="col-md-2  col-form-label">Date and Time</label>
+                      <div class="col-5 col-sm-3">
+                          <input type="tel"  class="form-control"  name="areacode" placeholder="Date">
+                      </div>
+                      <div class="col-7 col-sm-3">
+                          <input type="tel"  class="form-control" name="telnum" placeholder="Time">
+                      </div>
+              </div>
+              <div class="form-group row">
+                <div class="offset-5 col-10">
+                  <button type="submit" class="btn btn-primary"name="button">Reserve</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
